@@ -5,8 +5,6 @@ The library has a simple API — just pass a **File** or **Blob** object.
 
 Tested in modern browsers including **Chrome**, **Brave**, **Edge**, and **Firefox**.
 
----
-
 ## ✨ Supported File Types
 
 - 📦 Archives: **ZIP** *(content preview only — opening files and password-protected archives are not supported yet)*
@@ -19,7 +17,8 @@ Tested in modern browsers including **Chrome**, **Brave**, **Edge**, and **Firef
 
 > ⚠️ Audio, video, and PDF previews may vary slightly depending on the browser’s built-in rendering engine.
 
----
+## 🆒 Live demo
+[Click and check it live](https://codesandbox.io/p/sandbox/r6lc74)
 
 ## 📦 Installation
 
