@@ -36,10 +36,10 @@ const WordPreview: React.FC<WordPreviewProps> = ({ file, fileName }) => {
             setHtml(result.value)
 
             if (result.messages.length > 0) {
+                /* eslint-disable-next-line no-console */
                 console.warn('Mammoth conversion messages:', result.messages)
             }
         } catch (err) {
-            console.error('Error loading DOCX:', err)
             setError(
                 err instanceof Error
                     ? `Failed to load document: ${err.message}`

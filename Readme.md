@@ -9,7 +9,7 @@ Tested in modern browsers including **Chrome**, **Brave**, **Edge**, and **Firef
 
 ## ✨ Supported File Types
 
-- 📦 Archives: **ZIP**, **RAR**, **7z** *(content preview only — opening files and password-protected archives are not supported yet)*
+- 📦 Archives: **ZIP** *(content preview only — opening files and password-protected archives are not supported yet)*
 - 🎵 Audio: All major formats (MP3, WAV, OGG, etc.)
 - 📊 Data: **CSV**, **XLSX**
 - 🖼️ Images: All common formats (JPG, PNG, GIF, SVG, etc.)
@@ -96,6 +96,7 @@ Feel free to use it in your own projects.
 ## 🧭 Roadmap / Next Steps
 - 🔐 Support password-protected archives
 - 📧 Support mail file previews (.eml, .msg)
+- 📦 Support other archives files types such as **RAR** and **7z** 
 - 💅 Remove styled-components dependency
 
 ## 💬 Support & Contributions

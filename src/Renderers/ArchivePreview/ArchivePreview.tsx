@@ -54,7 +54,6 @@ const ArchivePreview: React.FC<ArchivePreviewProps> = ({ file, fileName }) => {
                 setError(`Archive format '.${ext}' is not yet supported. Currently only ZIP files are supported.`)
             }
         } catch (err) {
-            console.error('Error loading archive:', err)
             setError(
                 err instanceof Error
                     ? `Failed to read archive: ${err.message}`

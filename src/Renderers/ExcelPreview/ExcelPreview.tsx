@@ -55,7 +55,6 @@ const ExcelPreview: React.FC<ExcelPreviewProps> = ({ file, fileName }) => {
                 setSheets(sheetsData)
                 setActiveSheet(0)
             } catch (err) {
-                console.error('Error loading XLSX:', err)
                 setError(
                     err instanceof Error
                         ? `Failed to load spreadsheet: ${err.message}`

@@ -92,7 +92,6 @@ const CsvPreview: React.FC<CsvPreviewProps> = ({ file, fileName }) => {
                 setData(rows)
             }
         } catch (err) {
-            console.error('Error loading CSV:', err)
             setError(
                 err instanceof Error
                     ? `Failed to load CSV: ${err.message}`
